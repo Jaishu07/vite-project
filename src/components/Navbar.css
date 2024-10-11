@@ -1,0 +1,40 @@
+.nav{
+    display: flex;
+    background-color: rgb(1, 75, 51);
+    height: 10vh;
+    width: 100vw;
+    
+}
+h3{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+ul{
+    
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    justify-items: end;
+    text-align: end;
+  
+
+    
+}
+li{
+    display: flex;
+    justify-content: center;
+     
+    text-decoration: none;
+    color: beige;
+
+}
+.active-link{
+    background-color: rgb(8, 8, 8);
+    width: 70px;
+    height: 30px;
+    color: azure;
+    text-align: center;
+    border-radius: 10px;
+}
